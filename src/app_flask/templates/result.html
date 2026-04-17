@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Result | TruthSeeker AI</title>
+    <!-- Use dynamic timestamps for hot-reloading CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=2.0">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Analysis Complete</h1>
+            <p>Gemini AI has processed your content</p>
+        </header>
+
+        <main>
+            {% if result.error %}
+            <div class="card result-card fake">
+                <div class="status-icon">⚠️</div>
+                <h2>Error Occurred</h2>
+                <p style="color: #fca5a5; margin-bottom: 2rem;">{{ result.error }}</p>
+                <a href="/" class="btn-secondary">Try Again</a>
+            </div>
+            {% else %}
+            <div class="card result-card {{ 'fake' if result.result == 'FAKE' else 'real' }}">
+                <div class="status-icon">
+                    {% if result.result == 'FAKE' %}
+                    🚫
+                    {% else %}
+                    ✨
+                    {% endif %}
+                </div>
+                <h2>{{ "POTENTIAL FAKE NEWS" if result.result == 'FAKE' else "VERIFIED REAL NEWS" }}</h2>
+                <p class="confidence">Confidence Score: <strong>{{ "%.1f"|format(result.confidence * 100) }}%</strong>
+                </p>
+
+                {% if result.alert %}
+                <div class="alert-box">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z">
+                        </path>
+                        <line x1="12" y1="9" x2="12" y2="13"></line>
+                        <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                    </svg>
+                    <strong>ALERT TRIGGERED:</strong> High risk misinformation signatures detected.
+                </div>
+                {% endif %}
+
+                <div class="ai-reasoning">
+                    <h3>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                        </svg>
+                        Gemini Reasoning Model
+                    </h3>
+                    <p>{{ result.reasoning }}</p>
+                </div>
+
+                <div class="article-details">
+                    <h3>Analyzed Title</h3>
+                    <p>{{ result.original_title }}</p>
+
+                    <h3>Scraped Content Preview</h3>
+                    <p class="preview-text">{{ result.scraped_text_preview }}</p>
+                </div>
+
+                <a href="/" class="btn-secondary">Analyze Another Article</a>
+            </div>
+            {% endif %}
+        </main>
+    </div>
+</body>
+
+</html>

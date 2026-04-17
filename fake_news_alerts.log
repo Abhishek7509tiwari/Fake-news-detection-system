@@ -1,0 +1,83 @@
+2026-02-06 01:56:37,231 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-06 01:56:37,232 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-06 01:56:37,236 - werkzeug - INFO -  * Restarting with stat
+2026-02-06 01:56:39,280 - werkzeug - WARNING -  * Debugger is active!
+2026-02-06 01:56:39,288 - werkzeug - INFO -  * Debugger PIN: 876-581-188
+2026-02-23 23:00:12,040 - FakeNewsAlert - WARNING - ⚠️ FAKE NEWS DETECTED ⚠️
+Title: User Input Text
+Source: Manual Input
+Confidence: 99.00%
+2026-02-23 23:01:24,843 - FakeNewsAlert - WARNING - FAKE NEWS DETECTED
+Title: User Input Text
+Source: Manual Input
+Confidence: 100.00%
+2026-02-23 23:02:37,695 - FakeNewsAlert - WARNING - FAKE NEWS DETECTED
+Title: User Input Text
+Source: Manual Input
+Confidence: 100.00%
+2026-02-23 23:10:55,592 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-23 23:10:55,593 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-02-23 23:10:55,604 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-23 23:10:56,406 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 23:10:56,409 - werkzeug - INFO -  * Debugger PIN: 872-966-579
+2026-02-23 23:11:35,994 - FakeNewsAlert - INFO - ✅ Real News Verified: User Input Text (100.00%)
+2026-02-23 23:15:50,472 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\src\\generate_data.py', reloading
+2026-02-23 23:15:51,027 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-23 23:15:53,218 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 23:15:53,237 - werkzeug - INFO -  * Debugger PIN: 872-966-579
+2026-02-23 23:16:16,383 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\venv\\Lib\\site-packages\\pip\\_internal\\utils\\__init__.py', reloading
+2026-02-23 23:16:16,793 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-23 23:16:18,660 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 23:16:18,664 - werkzeug - INFO -  * Debugger PIN: 872-966-579
+2026-02-23 23:16:18,748 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\venv\\Lib\\site-packages\\lxml\\__init__.py', reloading
+2026-02-23 23:16:19,079 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-23 23:16:20,194 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 23:16:20,197 - werkzeug - INFO -  * Debugger PIN: 872-966-579
+2026-02-23 23:16:20,234 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\venv\\Lib\\site-packages\\PIL\\IcnsImagePlugin.py', reloading
+2026-02-23 23:16:20,586 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-23 23:16:21,649 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 23:16:21,651 - werkzeug - INFO -  * Debugger PIN: 872-966-579
+2026-02-23 23:16:21,687 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\venv\\Lib\\site-packages\\colorama\\tests\\initialise_test.py', reloading
+2026-02-23 23:16:21,979 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-23 23:16:23,456 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 23:16:23,458 - werkzeug - INFO -  * Debugger PIN: 872-966-579
+2026-02-23 23:16:23,491 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\venv\\Lib\\site-packages\\nltk\\lm\\models.py', reloading
+2026-02-23 23:16:23,980 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-23 23:16:25,602 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 23:16:25,605 - werkzeug - INFO -  * Debugger PIN: 872-966-579
+2026-02-23 23:16:25,640 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\venv\\Lib\\site-packages\\nltk\\tokenize\\stanford.py', reloading
+2026-02-23 23:16:25,925 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-23 23:16:27,200 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 23:16:27,203 - werkzeug - INFO -  * Debugger PIN: 872-966-579
+2026-02-23 23:16:27,232 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\venv\\Lib\\site-packages\\joblib\\externals\\loky\\_base.py', reloading
+2026-02-23 23:16:27,494 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-23 23:16:28,428 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 23:16:28,432 - werkzeug - INFO -  * Debugger PIN: 872-966-579
+2026-02-23 23:16:29,559 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\venv\\Lib\\site-packages\\nltk\\corpus\\reader\\__init__.py', reloading
+2026-02-23 23:16:29,791 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-23 23:16:30,658 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 23:16:30,661 - werkzeug - INFO -  * Debugger PIN: 872-966-579
+2026-02-23 23:16:30,729 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\venv\\Lib\\site-packages\\joblib\\externals\\loky\\backend\\__init__.py', reloading
+2026-02-23 23:16:30,980 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-23 23:16:31,992 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 23:16:31,995 - werkzeug - INFO -  * Debugger PIN: 872-966-579
+2026-02-23 23:16:32,031 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\venv\\Lib\\site-packages\\altair\\_magics.py', reloading
+2026-02-23 23:16:32,286 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-23 23:16:33,130 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 23:16:33,132 - werkzeug - INFO -  * Debugger PIN: 872-966-579
+2026-02-23 23:17:46,639 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\venv\\Lib\\site-packages\\annotated_types\\__init__.py', reloading
+2026-02-23 23:17:47,020 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-23 23:17:48,352 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 23:17:48,355 - werkzeug - INFO -  * Debugger PIN: 872-966-579
+2026-02-23 23:17:48,707 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\venv\\Lib\\site-packages\\typing_extensions.py', reloading
+2026-02-23 23:17:49,013 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-23 23:17:50,183 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 23:17:50,186 - werkzeug - INFO -  * Debugger PIN: 872-966-579
+2026-02-23 23:17:50,245 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\venv\\Lib\\site-packages\\attr\\_compat.py', reloading
+2026-02-23 23:17:50,558 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-02-23 23:17:51,896 - werkzeug - WARNING -  * Debugger is active!
+2026-02-23 23:17:51,901 - werkzeug - INFO -  * Debugger PIN: 872-966-579
+2026-02-23 23:18:06,957 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\src\\pipeline.py', reloading
+2026-02-23 23:18:07,246 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
