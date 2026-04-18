@@ -1,0 +1,14 @@
+pandas
+numpy
+streamlit
+groq
+
+flask
+flask-cors
+requests
+beautifulsoup4
+newspaper3k
+lxml
+lxml_html_clean
+pymongo
+plotly
