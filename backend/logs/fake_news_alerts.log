@@ -3057,3 +3057,232 @@ Confidence: 100.00%
 2026-04-18 00:53:07,417 - werkzeug - WARNING -  * Debugger is active!
 2026-04-18 00:53:07,424 - werkzeug - INFO -  * Debugger PIN: 209-453-154
 2026-04-18 00:55:22,875 - werkzeug - INFO - 127.0.0.1 - - [18/Apr/2026 00:55:22] "GET /api/health HTTP/1.1" 200 -
+2026-04-21 10:25:12,199 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-21 10:25:12,200 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-21 10:25:12,220 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-21 10:25:13,022 - werkzeug - WARNING -  * Debugger is active!
+2026-04-21 10:25:13,027 - werkzeug - INFO -  * Debugger PIN: 288-045-070
+2026-04-21 10:27:52,335 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-21 10:27:52,335 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-21 10:27:52,358 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-21 10:27:53,285 - werkzeug - WARNING -  * Debugger is active!
+2026-04-21 10:27:53,290 - werkzeug - INFO -  * Debugger PIN: 288-045-070
+2026-04-21 10:31:25,175 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-21 10:31:25,176 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-21 10:31:25,190 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-21 10:31:27,174 - werkzeug - WARNING -  * Debugger is active!
+2026-04-21 10:31:27,188 - werkzeug - INFO -  * Debugger PIN: 288-045-070
+2026-04-21 10:31:27,320 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 10:31:27] "GET /api/health HTTP/1.1" 200 -
+2026-04-21 10:31:46,543 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-21 10:31:46,543 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-21 10:31:46,554 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-21 10:31:48,017 - werkzeug - WARNING -  * Debugger is active!
+2026-04-21 10:31:48,020 - werkzeug - INFO -  * Debugger PIN: 288-045-070
+2026-04-21 10:32:27,565 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 10:32:27] "OPTIONS /api/analyze HTTP/1.1" 200 -
+2026-04-21 10:32:29,152 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-21 10:32:29,161 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 10:32:29] "POST /api/analyze HTTP/1.1" 200 -
+2026-04-21 10:32:38,365 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 10:32:38] "OPTIONS /api/analyze HTTP/1.1" 200 -
+2026-04-21 10:32:39,851 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2026-04-21 10:32:39,857 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 10:32:39] "POST /api/analyze HTTP/1.1" 200 -
+2026-04-21 10:34:20,286 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\src\\app_streamlit\\app.py', reloading
+2026-04-21 10:34:20,286 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\src\\app_streamlit\\app.py', reloading
+2026-04-21 10:34:20,303 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\src\\pipeline.py', reloading
+2026-04-21 10:34:20,312 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\src\\pipeline.py', reloading
+2026-04-21 10:34:20,317 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\src\\cli\\main.py', reloading
+2026-04-21 10:34:20,337 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\src\\core\\news_api_fetcher.py', reloading
+2026-04-21 10:34:20,357 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\src\\cli\\main.py', reloading
+2026-04-21 10:34:20,362 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\src\\core\\news_api_fetcher.py', reloading
+2026-04-21 10:34:20,399 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\src\\core\\scraper.py', reloading
+2026-04-21 10:34:20,416 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\annotated_types\\test_cases.py', reloading
+2026-04-21 10:34:20,418 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\altair\\theme.py', reloading
+2026-04-21 10:34:20,423 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\anyio\\from_thread.py', reloading
+2026-04-21 10:34:20,426 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\feedfinder2.py', reloading
+2026-04-21 10:34:20,438 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\annotated_types\\__init__.py', reloading
+2026-04-21 10:34:20,439 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\src\\core\\scraper.py', reloading
+2026-04-21 10:34:20,445 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\altair\\_magics.py', reloading
+2026-04-21 10:34:20,446 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\altair\\utils\\compiler.py', reloading
+2026-04-21 10:34:20,461 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\altair\\__init__.py', reloading
+2026-04-21 10:34:20,462 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\altair\\utils\\core.py', reloading
+2026-04-21 10:34:20,483 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\altair\\utils\\data.py', reloading
+2026-04-21 10:34:20,500 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\altair\\utils\\deprecation.py', reloading
+2026-04-21 10:34:20,505 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\anyio\\lowlevel.py', reloading
+2026-04-21 10:34:20,521 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\altair\\utils\\display.py', reloading
+2026-04-21 10:34:20,535 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\annotated_types\\test_cases.py', reloading
+2026-04-21 10:34:20,538 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\altair\\utils\\execeval.py', reloading
+2026-04-21 10:34:20,541 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\_plotly_utils\\data_utils.py', reloading
+2026-04-21 10:34:20,542 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\anyio\\to_interpreter.py', reloading
+2026-04-21 10:34:20,555 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\altair\\utils\\html.py', reloading
+2026-04-21 10:34:20,556 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\_plotly_utils\\exceptions.py', reloading
+2026-04-21 10:34:20,559 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\anyio\\to_process.py', reloading
+2026-04-21 10:34:20,575 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\_plotly_utils\\files.py', reloading
+2026-04-21 10:34:20,592 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\_plotly_utils\\importers.py', reloading
+2026-04-21 10:34:20,593 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\altair\\theme.py', reloading
+2026-04-21 10:34:20,600 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\anyio\\__init__.py', reloading
+2026-04-21 10:34:20,611 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\_plotly_utils\\optional_imports.py', reloading
+2026-04-21 10:34:20,664 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\_plotly_utils\\utils.py', reloading
+2026-04-21 10:34:20,669 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\anyio\\from_thread.py', reloading
+2026-04-21 10:34:20,777 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\altair\\utils\\mimebundle.py', reloading
+2026-04-21 10:34:20,789 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\feedfinder2.py', reloading
+2026-04-21 10:34:20,823 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\altair\\utils\\plugin_registry.py', reloading
+2026-04-21 10:34:20,841 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\annotated_types\\__init__.py', reloading
+2026-04-21 10:34:20,845 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\altair\\utils\\save.py', reloading
+2026-04-21 10:34:20,864 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\altair\\utils\\schemapi.py', reloading
+2026-04-21 10:34:20,886 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\altair\\utils\\selection.py', reloading
+2026-04-21 10:34:20,893 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\altair\\_magics.py', reloading
+2026-04-21 10:34:20,905 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\altair\\utils\\server.py', reloading
+2026-04-21 10:34:20,930 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\altair\\utils\\compiler.py', reloading
+2026-04-21 10:34:20,935 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\altair\\utils\\_dfi_types.py', reloading
+2026-04-21 10:34:20,955 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\altair\\utils\\_importers.py', reloading
+2026-04-21 10:34:20,969 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\altair\\utils\\_show.py', reloading
+2026-04-21 10:34:20,986 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\altair\\__init__.py', reloading
+2026-04-21 10:34:21,062 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\altair\\utils\\core.py', reloading
+2026-04-21 10:34:21,171 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\altair\\utils\\data.py', reloading
+2026-04-21 10:34:21,538 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-21 10:34:26,745 - werkzeug - WARNING -  * Debugger is active!
+2026-04-21 10:34:26,749 - werkzeug - INFO -  * Debugger PIN: 288-045-070
+2026-04-21 10:34:27,269 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-21 10:34:30,067 - werkzeug - WARNING -  * Debugger is active!
+2026-04-21 10:34:30,095 - werkzeug - INFO -  * Debugger PIN: 288-045-070
+2026-04-21 10:34:36,003 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\anyio\\_core\\_asyncio_selector_thread.py', reloading
+2026-04-21 10:34:36,004 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\anyio\\_core\\_asyncio_selector_thread.py', reloading
+2026-04-21 10:34:36,016 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\anyio\\_core\\_contextmanagers.py', reloading
+2026-04-21 10:34:36,031 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\anyio\\_core\\_eventloop.py', reloading
+2026-04-21 10:34:36,049 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\anyio\\_core\\_exceptions.py', reloading
+2026-04-21 10:34:36,054 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\anyio\\_core\\_contextmanagers.py', reloading
+2026-04-21 10:34:36,094 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\anyio\\_core\\_resources.py', reloading
+2026-04-21 10:34:36,111 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\anyio\\_core\\_signals.py', reloading
+2026-04-21 10:34:36,125 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\anyio\\_core\\_eventloop.py', reloading
+2026-04-21 10:34:36,128 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\anyio\\_core\\_sockets.py', reloading
+2026-04-21 10:34:36,153 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\anyio\\_core\\_streams.py', reloading
+2026-04-21 10:34:36,198 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\anyio\\_core\\_exceptions.py', reloading
+2026-04-21 10:34:36,254 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\anyio\\_core\\_tasks.py', reloading
+2026-04-21 10:34:36,284 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\anyio\\_core\\_testing.py', reloading
+2026-04-21 10:34:36,285 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\anyio\\_core\\_resources.py', reloading
+2026-04-21 10:34:36,294 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\anyio\\_core\\_typedattr.py', reloading
+2026-04-21 10:34:36,342 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\anyio\\_core\\_signals.py', reloading
+2026-04-21 10:34:36,404 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\anyio\\_core\\_sockets.py', reloading
+2026-04-21 10:34:36,453 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\anyio\\_core\\_streams.py', reloading
+2026-04-21 10:34:36,478 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\anyio\\_core\\_tasks.py', reloading
+2026-04-21 10:34:36,514 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\anyio\\_core\\_testing.py', reloading
+2026-04-21 10:34:36,570 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\venv\\Lib\\site-packages\\anyio\\_core\\_typedattr.py', reloading
+2026-04-21 10:34:37,154 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-21 10:34:38,769 - werkzeug - WARNING -  * Debugger is active!
+2026-04-21 10:34:38,772 - werkzeug - INFO -  * Debugger PIN: 288-045-070
+2026-04-21 10:34:40,354 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-21 10:34:41,401 - werkzeug - WARNING -  * Debugger is active!
+2026-04-21 10:34:41,403 - werkzeug - INFO -  * Debugger PIN: 288-045-070
+2026-04-21 10:36:49,134 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 10:36:49] "GET /api/health HTTP/1.1" 200 -
+2026-04-21 10:37:57,629 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 10:37:57] "GET /api/health HTTP/1.1" 200 -
+2026-04-21 10:39:10,991 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 10:39:10] "OPTIONS /api/set-key HTTP/1.1" 200 -
+2026-04-21 10:39:11,487 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 10:39:11] "POST /api/set-key HTTP/1.1" 200 -
+2026-04-21 10:39:51,279 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 10:39:51] "OPTIONS /api/analyze HTTP/1.1" 200 -
+2026-04-21 10:40:01,919 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2026-04-21 10:40:01,928 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 10:40:01] "POST /api/analyze HTTP/1.1" 200 -
+2026-04-21 10:40:08,501 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 10:40:08] "OPTIONS /api/analyze HTTP/1.1" 200 -
+2026-04-21 10:40:14,610 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2026-04-21 10:40:14,616 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 10:40:14] "POST /api/analyze HTTP/1.1" 200 -
+2026-04-21 10:40:26,195 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 10:40:26] "OPTIONS /api/analyze HTTP/1.1" 200 -
+2026-04-21 10:40:32,651 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2026-04-21 10:40:32,657 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 10:40:32] "POST /api/analyze HTTP/1.1" 200 -
+2026-04-21 10:41:48,717 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\src\\core\\pipeline.py', reloading
+2026-04-21 10:41:48,717 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\src\\core\\pipeline.py', reloading
+2026-04-21 10:41:48,718 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\src\\core\\pipeline.py', reloading
+2026-04-21 10:41:48,721 - werkzeug - INFO -  * Detected change in 'C:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\src\\core\\pipeline.py', reloading
+2026-04-21 10:41:49,336 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-21 10:41:49,910 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-21 10:41:50,587 - werkzeug - WARNING -  * Debugger is active!
+2026-04-21 10:41:50,595 - werkzeug - INFO -  * Debugger PIN: 288-045-070
+2026-04-21 10:41:50,950 - werkzeug - WARNING -  * Debugger is active!
+2026-04-21 10:41:50,953 - werkzeug - INFO -  * Debugger PIN: 288-045-070
+2026-04-21 10:43:40,201 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 10:43:40] "GET /api/health HTTP/1.1" 200 -
+2026-04-21 10:44:23,023 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 10:44:23] "OPTIONS /api/analyze HTTP/1.1" 200 -
+2026-04-21 10:44:32,444 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2026-04-21 10:44:38,862 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-21 10:44:38,866 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 0.453009 seconds
+2026-04-21 10:44:43,911 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-21 10:44:43,915 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 0.994440 seconds
+2026-04-21 10:44:50,185 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-21 10:44:50,760 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-21 10:44:50,818 - FakeNewsAlert - WARNING - FAKE NEWS DETECTED
+Title: User Input Text
+Source: Manual Input
+Confidence: 92.00%
+2026-04-21 10:44:50,874 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 10:44:50] "POST /api/analyze HTTP/1.1" 200 -
+2026-04-21 10:45:43,797 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 10:45:43] "OPTIONS /api/analyze HTTP/1.1" 200 -
+2026-04-21 10:45:52,607 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2026-04-21 10:45:54,691 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-21 10:45:54,699 - FakeNewsAlert - INFO - [OK] Real News Verified: User Input Text (100.00%)
+2026-04-21 10:45:54,732 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 10:45:54] "POST /api/analyze HTTP/1.1" 200 -
+2026-04-21 10:51:33,742 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-21 10:51:33,742 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-21 10:51:33,763 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-21 10:51:34,768 - werkzeug - WARNING -  * Debugger is active!
+2026-04-21 10:51:34,770 - werkzeug - INFO -  * Debugger PIN: 288-045-070
+2026-04-21 10:51:52,192 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-21 10:51:52,193 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-21 10:51:52,204 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-21 10:51:53,194 - werkzeug - WARNING -  * Debugger is active!
+2026-04-21 10:51:53,198 - werkzeug - INFO -  * Debugger PIN: 288-045-070
+2026-04-21 10:52:20,757 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 10:52:20] "GET /api/health HTTP/1.1" 200 -
+2026-04-21 10:52:44,990 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 10:52:44] "OPTIONS /api/analyze HTTP/1.1" 200 -
+2026-04-21 10:52:54,505 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2026-04-21 10:52:57,092 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-21 10:52:57,098 - FakeNewsAlert - INFO - [OK] Real News Verified: User Input Text (80.00%)
+2026-04-21 10:52:57,134 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 10:52:57] "POST /api/analyze HTTP/1.1" 200 -
+2026-04-21 11:04:06,676 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-21 11:04:06,678 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-21 11:04:06,698 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-21 11:04:07,707 - werkzeug - WARNING -  * Debugger is active!
+2026-04-21 11:04:07,717 - werkzeug - INFO -  * Debugger PIN: 971-733-868
+2026-04-21 11:05:06,298 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 11:05:06] "OPTIONS /api/analyze HTTP/1.1" 200 -
+2026-04-21 11:05:16,230 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2026-04-21 11:05:27,100 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-21 11:05:27,104 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 0.395971 seconds
+2026-04-21 11:05:35,242 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-21 11:05:35,243 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 0.900804 seconds
+2026-04-21 11:05:42,443 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-21 11:05:42,952 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-21 11:05:43,026 - FakeNewsAlert - INFO - [OK] Real News Verified: User Input Text (78.00%)
+2026-04-21 11:05:43,076 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 11:05:43] "POST /api/analyze HTTP/1.1" 200 -
+2026-04-21 18:37:02,756 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-21 18:37:02,759 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-21 18:37:02,795 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-21 18:37:04,504 - werkzeug - WARNING -  * Debugger is active!
+2026-04-21 18:37:04,522 - werkzeug - INFO -  * Debugger PIN: 665-565-224
+2026-04-21 18:37:53,448 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 18:37:53] "GET /api/health HTTP/1.1" 200 -
+2026-04-21 18:38:33,537 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 18:38:33] "OPTIONS /api/analyze HTTP/1.1" 200 -
+2026-04-21 18:38:45,480 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2026-04-21 18:38:51,429 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-21 18:38:51,567 - FakeNewsAlert - INFO - [OK] Real News Verified: User Input Text (80.00%)
+2026-04-21 18:38:51,635 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 18:38:51] "POST /api/analyze HTTP/1.1" 200 -
+2026-04-21 18:49:43,781 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\src\\app_streamlit\\app.py', reloading
+2026-04-21 18:49:45,729 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-21 18:49:49,124 - werkzeug - WARNING -  * Debugger is active!
+2026-04-21 18:49:49,129 - werkzeug - INFO -  * Debugger PIN: 665-565-224
+2026-04-21 18:50:27,667 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\src\\pipeline.py', reloading
+2026-04-21 18:50:28,891 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-21 18:50:30,671 - werkzeug - WARNING -  * Debugger is active!
+2026-04-21 18:50:30,676 - werkzeug - INFO -  * Debugger PIN: 665-565-224
+2026-04-21 18:52:28,420 - werkzeug - INFO -  * Detected change in 'c:\\Users\\Asus\\OneDrive\\Desktop\\minor project\\backend\\src\\core\\scraper.py', reloading
+2026-04-21 18:52:29,399 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-21 18:52:31,402 - werkzeug - WARNING -  * Debugger is active!
+2026-04-21 18:52:31,408 - werkzeug - INFO -  * Debugger PIN: 665-565-224
+2026-04-21 18:54:36,762 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-04-21 18:54:36,763 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-21 18:54:36,777 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2026-04-21 18:54:38,151 - werkzeug - WARNING -  * Debugger is active!
+2026-04-21 18:54:38,154 - werkzeug - INFO -  * Debugger PIN: 665-565-224
+2026-04-21 18:55:15,051 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 18:55:15] "GET /api/health HTTP/1.1" 200 -
+2026-04-21 18:55:51,015 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 18:55:51] "OPTIONS /api/analyze HTTP/1.1" 200 -
+2026-04-21 18:55:54,815 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-21 18:55:54,952 - FakeNewsAlert - INFO - [OK] Real News Verified: User Input Text (90.00%)
+2026-04-21 18:55:55,014 - werkzeug - INFO - 127.0.0.1 - - [21/Apr/2026 18:55:55] "POST /api/analyze HTTP/1.1" 200 -

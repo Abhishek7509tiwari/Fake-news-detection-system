@@ -147,7 +147,7 @@ Provide your analysis in STRICT JSON format with exactly three keys:
 
 Do not include markdown tags like ```json in the output, just raw JSON."""
 
-        user_prompt = f"Article text:\n{text[:8000]}"
+        user_prompt = f"Article text:\n{text[:3000]}"
 
         last_error = None
 
@@ -177,6 +177,7 @@ Do not include markdown tags like ```json in the output, just raw JSON."""
                     is_rate_limit = any(k in error_str for k in [
                         "429", "rate", "limit", "quota", "too many",
                         "503", "unavailable", "overloaded", "capacity",
+                        "413", "request_too_large"
                     ])
                     if is_rate_limit:
                         print(f"[Pipeline] {model_name} rate-limited/unavailable: {e}")

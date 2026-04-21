@@ -1,4 +1,4 @@
-import { Menu, ShieldCheck, ScanSearch, Home, History as HistoryIcon, Info } from "lucide-react";
+import { Menu, ShieldCheck, ScanSearch, Home, History as HistoryIcon, Info, Settings } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -15,6 +15,7 @@ const items: { key: ViewKey; label: string; icon: typeof Home }[] = [
   { key: "analyze", label: "Analyze", icon: ScanSearch },
   { key: "history", label: "History", icon: HistoryIcon },
   { key: "about", label: "About", icon: Info },
+  { key: "settings", label: "Settings", icon: Settings },
 ];
 
 const MobileNav = ({ active, onChange }: Props) => {

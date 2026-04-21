@@ -6,6 +6,7 @@ import Analyzer from "@/components/Analyzer";
 import HistoryPanel from "@/components/HistoryPanel";
 import AboutView from "@/components/AboutView";
 import ApiKeyBanner from "@/components/ApiKeyBanner";
+import SettingsView from "@/components/SettingsView";
 import { checkHealth, loadHistory, type HistoryEntry } from "@/lib/api";
 
 const Index = () => {
@@ -38,6 +39,8 @@ const Index = () => {
         return "History";
       case "about":
         return "About";
+      case "settings":
+        return "Settings";
     }
   }, [view]);
 
@@ -87,6 +90,7 @@ const Index = () => {
             {view === "analyze" && <Analyzer onAnalyzed={setHistory} />}
             {view === "history" && <HistoryPanel history={history} onCleared={() => setHistory([])} />}
             {view === "about" && <AboutView />}
+            {view === "settings" && <SettingsView />}
           </div>
 
           <footer className="mt-12 border-t border-white/5 pt-6 text-center text-xs text-muted-foreground">

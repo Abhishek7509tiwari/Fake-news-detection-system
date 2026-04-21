@@ -1,7 +1,7 @@
-import { ShieldCheck, Home, ScanSearch, History as HistoryIcon, Info, Github } from "lucide-react";
+import { ShieldCheck, Home, ScanSearch, History as HistoryIcon, Info, Github, Settings } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-export type ViewKey = "home" | "analyze" | "history" | "about";
+export type ViewKey = "home" | "analyze" | "history" | "about" | "settings";
 
 interface Props {
   active: ViewKey;
@@ -14,6 +14,7 @@ const items: { key: ViewKey; label: string; icon: typeof Home }[] = [
   { key: "analyze", label: "Analyze", icon: ScanSearch },
   { key: "history", label: "History", icon: HistoryIcon },
   { key: "about", label: "About", icon: Info },
+  { key: "settings", label: "Settings", icon: Settings },
 ];
 
 const Sidebar = ({ active, onChange, historyCount }: Props) => {
